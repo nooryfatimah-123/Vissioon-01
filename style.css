@@ -1,0 +1,438 @@
+
+body {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    color: #8a8484;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+
+
+/* ------------------ General css------------------ */
+h1,h2,h3 {
+    font-weight: 600;
+    color: #000;
+    line-height: 1;
+}
+
+h1 {
+    padding-bottom: 25px;
+    font-size: 48px;
+}
+
+h2 {
+    padding-bottom: 10px;
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 16px;
+    padding: 28px 0;
+}
+p{
+    margin-bottom: 0;
+}
+
+.work ul li {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.fa-regular {
+    color: #825DC1;
+    padding-right: 10px;
+}
+
+.how-work , .plan{
+    padding-top: 40px;
+}
+.work, .all-in-vissioon, .Pricing-Plan , .faq , .loyal-clients , .contact-us ,.contact , .footer{
+    padding-top: 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.vision .btn , .btn-position {
+    margin-top: 70px;
+}
+
+.btn {
+    background-color: #06c;
+    color: #fff;
+    font-size: 15px;
+    padding: 14px 40px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, .2);
+}
+
+.btn:hover {
+    background-color: #198BA8;
+    color: #fff;
+}
+
+.box {
+    padding: 25px 15px;
+}
+
+.box h3 {
+    padding-bottom: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.all-in-vissioon .card {
+    background-color: #f5f7fb;
+    border-radius: 10px;
+    height: 100%;
+    border: 2px solid transparent;
+    transition: all .3s linear;
+}
+.all-in-vissioon .card:hover{
+    transform: scale(1.05);
+}
+
+.all-in-vissioon .card:hover {
+    border: 2px solid #0066cc;
+}
+
+.all-in-vissioon img {
+    height: 60px;
+}
+
+.footer .footer-link li a:hover , .navbar .nav-item .nav-link:hover{
+    color: #06c; 
+} 
+
+/* * -------------------End General css---------------- */ 
+
+/* ------------------------------------Menu bar-------------------------    */
+header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-toggler {
+    border: 0;
+    border-radius: 0;
+}
+
+.fa-solid {
+    color: #06c;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 30px 0;
+    margin: 0 24px;
+}
+
+
+/* ------------ Pricing plan------------------------- */
+
+.price-card{
+    padding: 70px 24px 102px;
+    box-shadow: 1px 0 13px rgba(0,0,0,.3);
+    transition: all .8s;
+    border-radius: 6px;
+    position: relative;
+    height: 100%;
+}
+.price-card:hover  .box-basic {
+    background-color: #fff;
+    color: #06c;
+}
+.Pricing-Plan .outer-card{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.Pricing-Plan .price-card:hover {
+    background-color: #06c;
+    color: #fff;
+}
+.price-card:hover h2 {
+    color: #fff;
+}
+.Pricing-Plan .price-card .outer-card .box-basic:hover{
+    background-color: #fff;
+    color: #06c;
+}
+.Pricing-Plan .box-basic{
+    background-color: #0066cc;
+    color:white;
+    display: inline-block;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius:6px;
+    padding: 4px 20px;
+    font-weight: 600;
+}
+.price-card h2{
+    color: #000;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-left: 16px;
+    font-size: 34px;
+}
+.Pricing-Plan p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.border{
+    border-top: 1px solid #efefef;
+    margin-top: 24px;
+}
+.Pricing-Plan .fa-check{
+    color: #2cb339;
+}
+.Pricing-Plan .fa-xmark{
+    color: #ec443b;
+}
+.Pricing-Plan ul li{
+    padding: 4px 0 4px 22px;
+    font-size: 14.5px;
+    font-weight: 400;
+}
+.Pricing-Plan i{
+    padding-right: 20px;
+    font-size: 16px;
+}
+.btn-position{
+    text-align: center;
+    bottom: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.bttnn{
+    background-color: #06c;
+    color: #fff;
+    font-size: 15px;
+    padding: 14px 40px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+}
+.price-card:hover  .bttnn{
+    background-color: #fff;
+    color: #0066cc;
+}
+/* -------------------------END ----------------------------- */
+
+/* ----------------------Start FAQ----------------------- */
+
+
+.accordion{
+
+    padding: 50px;
+}
+.accordion-item .accordion-button{
+    background-color: #EFEFEF;
+    
+}
+.accordion-item{
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 0;
+}
+/* End accordion section */
+
+
+/* --------------------End FAQ-------------------------------- */
+/* -------------------------loyal clients------------------------------ */
+.clients{
+    padding: 32px;
+    background-color: #F3F3F3;
+    height: 100%;
+    border-radius: 20px;
+    height: 100%;
+    position: relative;  
+}
+.xyz{
+    padding-top: 55px;
+}
+.loyal p{
+    font-weight: 400;
+    font-size: 13px;
+}
+.loyal  .fa-solid{
+    font-size: 30px;
+    color: #06c;
+}
+.loyal .fa-quote-right{
+    padding-right: 0;
+    padding-left: 90%;
+}
+.profile h3{
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+/* ----------------End ----------- */
+
+
+/* ------------------------- Contact form--------------------------- */
+ 
+.form{
+    margin: 3%;
+    text-align: center;
+      
+}
+.map{
+    padding: 32px;
+    border-radius: 4px;
+    box-shadow: 0 0 1rem rgba(0,0,0,.2);
+}
+.space{
+    margin-top: 20px;
+    display: block;   
+}
+ .one-card input{
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 1.25rem rgba(30,34,40,.04);
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #60697b;
+}
+select{
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 1.25rem rgba(30,34,40,.04);
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.option select option{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #60697b;
+    border-radius: 2px;
+}
+.one-card textarea{
+    width: 100%;
+    height: 200px;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 0 0 1.25rem rgba(30,34,40,.04);
+    line-height: 27px;
+    color: #60697b;
+    margin-bottom: 40px;
+    display: block;
+}
+
+
+.contact{
+    background-image: url(images/bgimg2.png);
+
+}
+.contact .contact-card img{
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.contact .contact-card{
+    padding-top: 70px;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .contact-card{
+    background-image: url(images/bgimg.jpg);
+}
+.form-control{
+    border: 3px solid #e8ecef;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 16px 20px;
+    background-color: #f8f9fb;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control input{
+    border: 0;
+}
+form .fa-arrow-right{
+    color: white;
+}
+/* ----------------End Contact form------------------------- */
+
+/* -------------------Start footer------------------------- */
+
+.footer{
+    padding: 80px 0 16px;
+    position: relative;
+}
+.footer{
+    background-image: url(images/img6.jpg);
+    background-size: cover; 
+}
+.footer ul li{
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 400;
+    padding: 0 24px 0 0;
+}
+.footer ul li a{
+    color: #cbd0e3;
+}
+ .fa-brands   {
+    height: 40px;
+    width: 40px;
+    background: #06c;
+    color: #fff;
+    border-radius: 100%;
+    align-items: center;
+    
+}
+.footer .social-link li i{
+    padding-top: 35%;
+    font-size: 18px;
+}
+
+.bottom-footer{
+    border-top:1px solid #e5e5e5;
+    margin-top: 48px;
+    padding-top: 24px;
+}
+.footer p{
+    font-weight: 400;
+    font-size: 16px;
+   color: rgb(176,191 ,223);
+}
+ .abc a{
+    font-size: 16px;
+    
+}
+
+@media (max-width:992px) {
+    header .navbar-nav .nav-item .nav-link{
+        padding: 0;
+    }
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    .work, .all-in-vissioon, .Pricing-Plan , .faq , .loyal-clients , .contact-us ,.contact , .footer{
+        padding-top: 60px;
+    }
+    
+} 
